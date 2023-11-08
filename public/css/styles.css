@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    
+}
+.logo{
+    margin: 0px;
+}
+header{
+    background-color: #EAC926;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    width: 100%;
+   
+}
+p{ /*Cuerpos de texto*/
+    font-size: 12px;
+}
+h3{ /*Titulares (Basado en tu última visita/Ofertas)*/
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+@media (max-width: 380px){
+    .descripcion{
+        display: none;
+    }
+    ul {
+        display: none;
+      }
+}
+@media (min-width:600px){
+.burger-menu{
+    display: none;
+}
+}
+.burger-menu i{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 0.2%;
+
+}
+.burger-menu{
+    text-align: center;
+}
+.busqueda{
+    border-style: solid;
+    display: block;
+}
+.input{
+    background-color: white;
+    width: 40%;
+}
+section.banner img{
+    width: 100%;
+    height: 10%;
+}
+ul {
+    list-style-type: none;
+  }
+.producto{
+    text-align: center; 
+  
+}
+main{
+    width: 100%;
+}
+.cajaArticulos {
+    border-style: solid;
+    
+    padding: 15px; 
+   
+    
+   
+  }
+ 
